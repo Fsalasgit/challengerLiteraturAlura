@@ -10,6 +10,6 @@ public record DatosLibros(
         @JsonAlias("title") String titulo,
         @JsonAlias("authors")List<DatosAutor> autor,
         @JsonAlias("languages") List<String> idiomas,
-        @JsonAlias("dowload_count") Double numeroDeDescargas
+        @JsonAlias("download_count") Integer numeroDeDescargas
         ) {
 }
